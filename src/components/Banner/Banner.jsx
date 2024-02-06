@@ -3,7 +3,7 @@ import BannerImg from "../../assets/coffee-white.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
-import BgImg from "../../assets/website/coffee-texture.jpg";
+import BgImg from "../../assets/website/cofee.png";
 
 const bgImage = {
   backgroundImage: `url(${BgImg})`,
@@ -40,7 +40,7 @@ const Banner = () => {
                 </h1>
                 <p
                   data-aos="fade-up"
-                  className="text-sm text-gray-500 tracking-wide leading-5"
+                  className="text-lg text-white tracking-wide leading-5"
                 >
                   Indulge in our Premium Blend Coffee – a meticulously crafted
                   fusion of the finest beans, offering a rich, aromatic
@@ -50,8 +50,8 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
-                      <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Premium Coffee</span>
+                      <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3  rounded-full bg-red-100 " />
+                      <span className=" font-semibold ">Premium Coffee</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -59,7 +59,7 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Hot Coffee</span>
+                      <span className=" font-semibold ">Hot Coffee</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -67,7 +67,7 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
-                      <span>Cold Coffee</span>
+                      <span className=" font-semibold ">Cold Coffee</span>
                     </div>
                   </div>
                   <div
@@ -77,7 +77,7 @@ const Banner = () => {
                     <h1 className="text-2xl font-semibold font-cursive ">
                       Tea Lover
                     </h1>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-lg text-white">
                       crafting the ideal cup of tea demands a blend of patience,
                       precision, and a touch of passion, resulting in a soothing
                       infusion of harmonious flavors.
